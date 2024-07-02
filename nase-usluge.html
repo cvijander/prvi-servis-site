@@ -57,7 +57,7 @@
       <div>
         <div class="bg-dark">
           <section class="layout-header"></section>
-          <section class="d-flex justify-content-between">
+          <section class="d-flex justify-content-between container">
             <h1 class="text-light align-self-end ml-2">
               <small id="indexTop" class="d-none d-lg-block">Naše usluge</small>
             </h1>
@@ -70,219 +70,108 @@
       </div>
     </header>    
     <div class="mt-3">
-        <section id="nase-usluge-slika">
+        <section id="nase-usluge-slika" class="container ">
             <div class="row">
-               <div class="col-sm-12 col-md-10 offset-md-3"> 
-                    <figure class="figure">
-                      <img src="images/bozanski-dodir.png" class="figure-img img-fluid mx-auto rounded-circle" alt="bozanski dodir i prenos znanja">
-                      <figcaption class="figure-caption text-right">"Božanski dodir - prenos znanja" - <i>nepoznati autor</i>.</figcaption>
+               <div class="col-sm-12 col-md-6 "> 
+                    <figure class="figure d-flex justify-content-end">
+                      <img src="images/bozanski-dodir.png" class="figure-img img-fluid mx-auto rounded-circle" alt="bozanski dodir i prenos znanja" style="width: 33%;">
                     </figure> 
+               </div>
+               <div class="col-sm-12 col-md-6 "> 
+                  <div >
+                    <figcaption class="figure-caption text-left mt-4">"Božanski dodir - prenos znanja" - <i>nepoznati autor</i>.</figcaption>
+                  </div>
+                  <a href="rezervacija-termina.html" class="btn btn-outline-dark btn-light my-4">Rezervišite termin</a>                  
                </div>
             </div>                      
         </section>
     </div>
-    <div class="bg-dark text-light pt-3 pb-5">
+    <div class="bg-dark text-light pt-5 pb-5 ">
         <section id="nase-usluge-tabela" class="container">
           <table class="table table-dark table-striped table-bordered" >
             <thead>
                <tr>
                  <th>Naziv usluge</th>
-                 <th>Vreme potrebno da se izvrsi</th>
+                 <th>Vreme potrebno da se izvrši</th>
                  <th>Cena </th>
                </tr>
             </thead>
             <tbody>
                 <tr>
-                 <td>Mali servis</td>
+                 <td>Mali servis<br>
+                    <small>Provera i testiranje stanja delova i servisiranje ili zamena pojedinih delova i tečnosti</small></td>
                  <td>1 h</td>
                  <td>50 &euro;</td>
                 </tr>
                 <tr>
-                 <td>Veliki servis</td>
+                 <td>Veliki servis<br>
+                     <small>Veliki servis je periodični servis pri kome se menja set zupčastog kaiša/lanca.<br> Ne propustite da ih zamenite u predviđenim intervalima<br> zato što njihovim pucanjem možete izazvati teže kvarove na vozilu.</small>
+                 </td>
                  <td>1-3 h</td>
                  <td>80 &euro;</td>
                 </tr>
                 <tr>
-                 <td>Provera za tehnicki</td>
+                 <td>Provera za tehnicki<br>
+                    <small>Priprema za tehnički obuhvata pregled preko 100 pozicija na vozilu,<br> u skladu sa pravilnikom o tehničkom pregledu vozila.<br> Po izvršenom pregledu dobijate izveštaj o proveri i listu šta je sve potrebno popraviti<br> ili zameniti da bi vozilo spremno izašlo na tehnički pregled.</small>
+                 </td>
                  <td>1-2 h</td>
                  <td>50 &euro;</td>
                 </tr>
                 <tr>
-                 <td>Provera za putovanja</td>
+                 <td>Provera za putovanja<br>
+                   <small>Posle kontrolnog pregleda dobićete uvid u stanje svog vozila,<br> ali to ne podrazumeva da je vozilo ispravno i spremno za putovanje.<br> Ukoliko se ustanovi neispravnost, možda će biti potrebno da vozilo ostane u servisu,<br> ili da čak razmislite o putovanju na neki drugi način. </small>
+                 </td>
                  <td>1-3 h</td>
                  <td>75 &euro;</td>
-                </tr>
+                </tr>                
                 <tr>
-                 <td>Provera za prodaju</td>
-                 <td>1 h</td>
-                 <td>40 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Provera klime</td>
+                 <td>Provera klime<br>
+                   <small>Redovan servis auto klime omogućava njen ispravan rad,<br> produžava trajnost kompresora i ostalih delova sistema klime u automobilu.</small>
+                 </td>
                  <td>1-2 h</td>
                  <td>40 &euro;</td>
                 </tr>
                 <tr>
-                 <td>Provera pneumatika</td>
-                 <td>1 h</td>
-                 <td>35 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Provera kocionog sistema</td>
+                 <td>Provera kocionog sistema<br>
+                   <small>Pravovremena zamena kočione tečnosti je najbolji potez u održavanju sistema kočenja u ispravnom stanju.<br> Kočioni sistem je sa stanovišta bezbednosti, najvažniji sistem na automobilu.<br>Kočiona tečnost prenosi snagu kočenja pedale preko cilindra do kočionih čeljusti i paknova</small>
+                 </td>
                  <td>1 -2 h</td>
                  <td>40 &euro;</td>
                 </tr>
                 <tr>
-                 <td>Provera izduvnih gasova</td>
+                 <td>Provera izduvnih gasova<br>
+                  <small>Auspuh savremenog automobila predstavlja mnogo više od izduvne cevi<br> i prigušivača zvuka koji su činili izduvni sistem na starijim vozilima.<br> Danas on predstavlja kompleksan uređaj za kontrolu i sigurnost emisije štetnih izduvnih gasova</small>
+                 </td>
                  <td>1 h</td>
                  <td>35 &euro;</td>
-                </tr>
+                </tr>  
                 <tr>
-                 <td>Zamena pneumatika </td>
-                 <td>1 h</td>
-                 <td>30 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Provera i zamena ulja</td>
-                 <td>1-2 h</td>
-                 <td>20 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Dijagnostika kvara motora</td>
-                 <td>1 -2 h</td>
-                 <td>35 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Dijagnostika kvara mehanike</td>
-                 <td>1 -2 h</td>
-                 <td>35 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Dijagnostika kvara kocnica</td>
-                 <td>1 -2 h</td>
-                 <td>35 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Dijagnostika kvara na elektroinstalacijama</td>
-                 <td>2 -3 h</td>
-                 <td>45 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Zamena amortizera i opruga</td>
+                 <td>Zamena amortizera i opruga<br>
+                  <small>Zamena neispravnih opruga amortizera je veoma važna jer omogućava normalnu upravljivost i ležanje vozila.<br>Elastični oslonci imaju zadatak da prenesu vertikalne udarne sile sa točkova na karoseriju<br> i da u najvećoj mogućoj meri ublaže ta opterećenja.</small> 
+                 </td>
                  <td>2 -3 h</td>
                  <td>75 &euro;</td>
                 </tr>
                 <tr>
-                 <td>Provera alnasera i alternatora</td>
+                 <td>Provera alnasera i alternatora<br>
+                  <small>Redovna provera akumulatora i alternatora daje uvid u stanje akumulatora<br> i pruža mogućnost da zamenite neispravan akumulator na vreme,<br> pre nego što vas ostavi na parkingu ili na putu.<br>Akumulator skladišti (akumulira) i obezbeđuje električnu energiju za elektropokretač (starter)<br> i ostale električne komponente u vozilu, neophodne za startovanje motora.</small> 
+                 </td>
                  <td>1 -2 h</td>
                  <td>35 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Zamena lamele </td>
-                 <td>2 -4 h</td>
-                 <td>85 &euro;</td>
-                </tr>
-                <tr>
-                 <td>Ostalo </td>
-                 <td>2 -4 h</td>
-                 <td>50 &euro;</td>
-                </tr>
+                </tr>   
             </tbody>
           </table>
         </section>
-    </div>
-    <div class="container pt-2 mt-2 ">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item active" role="presentation">
-                <a class="nav-link btn-outline-dark active" id="mali-servis-tab" data-toggle="tab" href="#mali-servis" role="tab" aria-controls="mali-servis" aria-selected="true">Mali servis</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="veliki-servis-tab" data-toggle="tab" href="#veliki-servis" role="tab" aria-controls="veliki-servis" aria-selected="false">Veliki servis</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="provera-za-tehnicki-tab" data-toggle="tab" href="#provera-za-tehnicki" role="tab" aria-controls="provera-za-tehnicki" aria-selected="false">Provera za tehnicki</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="provera-za-putovanja-tab" data-toggle="tab" href="#provera-za-putovanja" role="tab" aria-controls="provera-za-putovanja" aria-selected="false">Provera za putovanja</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="provera-klime-tab" data-toggle="tab" href="#provera-klime" role="tab" aria-controls="provera-klime" aria-selected="false">Provera  klime</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="provera-kocionog-sistema-tab" data-toggle="tab" href="#provera-kocionog-sistema" role="tab" aria-controls="provera-kocionog-sistema" aria-selected="false">Provera kocionog sistema</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="provera-elektroinstalacija-tab" data-toggle="tab" href="#provera-elektroinstalacija" role="tab" aria-controls="provera-elektroinstalacija" aria-selected="false">Provera elektroinstalacija sistema</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="provera-izduvnih-gasova-tab" data-toggle="tab" href="#provera-izduvnih-gasova" role="tab" aria-controls="provera-izduvnih-gasova" aria-selected="false">Provera izduvnih gasova</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="zamena-opruga-i-amortizera-tab" data-toggle="tab" href="#zamena-opruga-i-amortizera" role="tab" aria-controls="zamena-opruga-i-amortizera" aria-selected="false">Zamena opruga i amortizera</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link btn-outline-dark" id="provera-alnasera-i-alternatora-tab" data-toggle="tab" href="#provera-alnasera-i-alternatora" role="tab" aria-controls="provera-alnasera-i-alternatora" aria-selected="false">Provera alnasera i alternatora</a>
-            </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-             <div class="tab-pane fade show active" id="mali-servis" role="tabpanel" aria-labelledby="mali-servis-tab">Mali servis je redovan (periodični) servis je provera i testiranje stanja delova automobila i servisiranje ili zamena pojedinih delova i tečnosti.Redovnim održavanjem obezbeđuje se sigurnost, pouzdanost, upravljivost, udobnost i dogotrajnost automobila. Servisni interval je naveden od strane proizvođača vozila u rasporedu servisa. Savremeni automobili pokazuju krajnji rok za sledeći servis na instrument - tabli</div>
-            <div class="tab-pane fade" id="veliki-servis" role="tabpanel" aria-labelledby="veliki-servis-tab">Veliki servis je periodični servis pri kome se menja set zupčastog kaiša/lanca. Ne propustite da ih zamenite u predviđenim intervalima zato što njihovim pucanjem možete izazvati teže kvarove na vozilu.Da bi se sva četiri takta rada motora sa unutrašnjim sagorevanjem odvijala usklađeno potrebno je da rad kolenastog vratila (radilice) motora bude usklađen sa radom bregastog vratila i ventila. Ova dva mehanička sistema povezuje zupčasti kaiš ili pogonski lanac.</div>
-            <div class="tab-pane fade" id="provera-za-tehnicki" role="tabpanel" aria-labelledby="provera-za-tehnicki-tab">Priprema za tehnički obuhvata pregled preko 100 pozicija na vozilu, u skladu sa pravilnikom o tehničkom pregledu vozila. Po izvršenom pregledu dobijate izveštaj o proveri i listu šta je sve potrebno popraviti ili zameniti da bi vozilo spremno izašlo na tehnički pregled.</div>
-            <div class="tab-pane fade" id="provera-za-putovanja" role="tabpanel" aria-labelledby="provera-za-putovanja-tab">Posle kontrolnog pregleda dobićete uvid u stanje svog vozila, ali to ne podrazumeva da je vozilo ispravno i spremno za putovanje. Ukoliko se ustanovi neispravnost, možda će biti potrebno da vozilo ostane u servisu, ili da čak razmislite o putovanju na neki drugi način. Zato zakažite kontrolni pregled vozila na vreme, a poželjno je da to bude najmanje dve nedelje pred planirani odlazak na put.</div>
-            <div class="tab-pane fade" id="provera-za-prodaju" role="tabpanel" aria-labelledby="provera-za-prodaju-tab">Provera automobila za prodaju...</div>
-            <div class="tab-pane fade" id="provera-klime" role="tabpanel" aria-labelledby="provera-klime-tab">Redovan servis auto klime omogućava njen ispravan rad, produžava trajnost kompresora i ostalih delova sistema klime u automobilu.Najčešće pritužbe na rad auto-klima uređaja se odnose na njegovu smanjenu efikasnost, ili pojavu pojačane buke i neprijatnih mirisa prilikom korišćenja. Redovnim servisiranjem klima uređaja na vašem vozilu omogućava se njegov ispravan rad, produžava trajnost kompresora i ostalih delova sistema.</div>
-            <div class="tab-pane fade" id="provera-kocionog-sistema" role="tabpanel" aria-labelledby="provera-kocionog-sistema-tab">Pravovremena zamena kočione tečnosti je najbolji potez u održavanju sistema kočenja u ispravnom stanju. Kočioni sistem je sa stanovišta bezbednosti, najvažniji sistem na automobilu.Kočiona tečnost prenosi snagu kočenja pedale preko cilindra do kočionih čeljusti i paknova. Dotrajala kočiona tečnost može prouzrokovati propadanje pedale i otkazivanja kočnica kada su najpotrebnije.</div>
-            <div class="tab-pane fade" id="provera-elektroinstalacija" role="tabpanel" aria-labelledby="provera-elektroinstalacija-tab">Redovna provera signalizacije vozila i njeno besprekorno funkcionisanje je veoma bitno sa stanovišta bezbednosti u saobraćaju.Sistem osvetljenja na vozilima sadrži svetlosne i signalne uređaje ugrađene na prednjem i zadnjem delu vozila, sa strane vozila i u nekim slučajevima na vrhu vozila. Cilj ovog sistema je da obezbedi vozaču sigurno upravljanje vozilom, po mraku i lošim vremenskim uslovima, kao i da ukaže na prisustvo vozila i njegovu poziciju, veličinu, pravac kretanja i vozačevu nameru u kretanju vozila.</div>
-            <div class="tab-pane fade" id="provera-izduvnih-gasova" role="tabpanel" aria-labelledby="provera-izduvnih-gasova-tab">Auspuh savremenog automobila predstavlja mnogo više od izduvne cevi i prigušivača zvuka koji su činili izduvni sistem na starijim vozilima. Danas on predstavlja kompleksan uređaj za kontrolu i sigurnost emisije štetnih izduvnih gasova. Sastoji se od izduvne grane, zadnjeg lonca, (ponekad i prednji, srednji), cev auspuha i katalizatora.Izduvni sistem sprovodi izduvne gasove iz motora i dalje od automobila da ne bi dospeli u kabinu vozila. Zatim izduvni sistem smanjuje buku motora. Katalizator smanjuje nivo štetnih (zagađujućih) materija u izduvnim gasovima. Na kraju, senzori ugrađeni u izduvni sistem prate nivo izduvnih gasova i održavaju efikasan rad motora</div>
-            <div class="tab-pane fade" id="zamena-opruga-i-amortizera" role="tabpanel" aria-labelledby="zamena-opruga-i-amortizera-tab">Zamena neispravnih opruga amortizera je veoma važna jer omogućava normalnu upravljivost i ležanje vozila.Elastični oslonci imaju zadatak da prenesu vertikalne udarne sile sa točkova na karoseriju i da u najvećoj mogućoj meri ublaže ta opterećenja. Elastični oslonci mogu biti: lisnate, spiralne ili torzione opruge, gumeno-metalni elementi, hidraulične, pneumatske ili hidropneumatske opruge.</div>
-            <div class="tab-pane fade" id="provera-alnasera-i-alternatora" role="tabpanel" aria-labelledby="provera-alnasera-i-alternatora-tab">Redovna provera akumulatora i alternatora daje uvid u stanje akumulatora i pruža mogućnost da zamenite neispravan akumulator na vreme, pre nego što vas ostavi na parkingu ili na putu.Akumulator skladišti (akumulira) i obezbeđuje električnu energiju za elektropokretač (starter) i ostale električne komponente u vozilu, neophodne za startovanje motora. Problemi sa oslabljenim akumulatorom obično počinju sa prvim nižim temperaturama. Proverite stanje akumulatora na Vašem vozilu pre nego što dođe u stanje da ne može da pokrene motor.</div>
-        </div>
-    </div>
-    <h2 class="text-center mt-3">Rezervisite termin na vreme</h2> 
-      
-    <h3 class="text-center bg-warning p-3 "><i class="bi bi-arrow-down-left-circle mr-3 icons-kontakt-footer"></i>Akcija klikni ispod na dugme u ćošku da saznaš trenutne akcije</h3>
-    <div class="bottom-top">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Akcija meseca</h5>
-          <span class="text-light display-4">Popust od 30 % na veliki servis do 20 jula.</span><br>
-          <span class="text-light display-4">Popust od 20 % na mali servis do 30 jula.</span><br>
-          <span class="text-light display-4">Popust od 40 % na zamenu pneumatika do 1 jula.</span><br>
-        </div>
-      </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
-    </div>
+    </div>       
     <div class="mb-5">
         <section id="location" class="container">
           <div class="row">
-            <div class="col-md-6 mt-5">
-                <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Novi%20sad%20,serbia+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe></div>
-            </div>
-            <div class="col-md-6 d-flex flex-column justify-content-center my-5">
-                <h3 class="text-center">Naša lokacija</h3>
-                <adress class="d-flex flex-column justify-content-between" >
-                  <div class="text-center mt-2">  
-                     <i class="bi bi-pin-map mr-2 icons-kontakt-footer"></i><span>Neka ulica 50, Novi Sad </span><br>
-                  </div>
-                  <div class="text-center">
-                     <i class="bi bi-clock mr-2 icons-kontakt-footer"></i><span>08 - 17h </span><br>
-                  </div>           
-                  <div class="text-center">
-                     <i class="bi bi-phone mr-2 icons-kontakt-footer"></i><tel>065 / 23 12 32 3</tel><br>
-                  </div>
-                  <div class="text-center">
-                     <i class="bi bi-envelope-paper mr-2 icons-kontakt-footer"></i><span>hranislav@prviservis.com</span><br>
-                  </div>
-                </adress>
-            </div>
+            <div class="col-md-12 mt-3">
+                <div style="width: 100%"><iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Novi%20sad%20,serbia+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe></div>
+            </div>            
           </div>
         </section>
      </div> <!-- div oko sekcije-->
-
     <footer class="site-footer bg-dark pt-2">
       <div class="container">
         <div class="row bg-dark mt-3 text-light">

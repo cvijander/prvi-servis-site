@@ -8,6 +8,11 @@
     
 }
 
+td+td  {
+    text-align:center;
+}
+
+
 .izreka {
     font-size: 20px;
 }
