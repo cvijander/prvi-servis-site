@@ -8,11 +8,58 @@
     
 }
 
-.color-by-dejan {
-    color:#121826 ;
+.btn-bg-color-dejan {
+    background-color: #121826 !important;
 }
+
+.bg-color-by-dejan {
+    background-color: #121826 !important;
+}
+
+
+.btn-bg-color-dejan:link {
+    background-color: #121826 !important;
+}
+
+.btn-bg-color-dejan:visited {
+    background-color: #121826 !important;
+}
+
+.btn-bg-color-dejan:focus {
+     background-color: white !important;    
+    border-radius: 10px;
+    border: #121826 3px solid;
+    font-size: larger;
+    color: #121826;
+
+
+}
+
+.btn-bg-color-dejan:hover {
+    background-color: white !important;    
+    border-radius: 10px;
+    border: #121826 3px solid;
+    font-size: larger;
+
+
+}
+
+.btn-bg-color-dejan:active {
+    background-color: #121826 !important;
+    border-radius: 10px;
+}
+
+
+
+
+
 td+td  {
     text-align:center;
+}
+
+small {
+    line-height: 3px;
+    font-size: 10;
 }
 
 
@@ -23,6 +70,7 @@ td+td  {
 .img-logo {
     height: 28px;
 }
+
 
 .icons-kontakt-footer{
     font-size: 1.5rem;
