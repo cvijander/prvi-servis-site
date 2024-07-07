@@ -4,8 +4,16 @@
     background-position: top center;
     height: 200px;
     background-repeat: no-repeat;
-    background-size: cover;    
-    
+    background-size: cover;        
+}
+
+.layout-oci {      
+    background-position: top center;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+    width: 100%;
 }
 
 .btn-bg-color-dejan {
@@ -49,7 +57,11 @@
     border-radius: 10px;
 }
 
-
+ .table-hover-state:hover {
+    
+    font-size: larger;
+    color: white;
+}
 
 
 
