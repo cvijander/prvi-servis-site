@@ -100,3 +100,54 @@ small {
 .header-links {
     font-size: 0.9rem;
 }
+.row-f {
+    display: flex;
+}
+
+.card {
+    flex: 1 1 ;
+    flex-wrap: wrap;
+    align-self: normal;
+}
+
+.rastojanje {
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.rastojanje-kontakt {
+margin-top: -5px;
+}
+
+/* .nav-column {
+    padding: 5px 0;
+    margin: 10px 0;
+} */
+
+.nav-item {
+     padding: 2px 0;
+     margin: 5px 0;
+}
+
+.stelovanje-visine-linkovi
+{
+   margin-top: -6px; 
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 150px;
+    font-weight: bolder;
+}
+
+span , tel, footer  p, footer li {
+    font-size: 14px;
+}
+
+#povratak {
+    font-size: 14px;
+}
+
+#copy {
+    font-size: 14px;
+}

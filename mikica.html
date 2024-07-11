@@ -60,7 +60,7 @@
             <!-- <h1 class="text-light align-self-end ml-2">
               <small id="indexTop" class="d-none d-lg-block">Mikica</small>
             </h1> -->
-            <p class="text-light bg-color-by-dejan izreka bg-dark mr-2 my-3">
+            <p class="text-light bg-color-by-dejan izreka bg-dark mr-2 my-3" id="indexTop">
               Zvanični kanal najboljeg servisa u vašem gradu, a ne ko Slavko,
               ono djubre od prekoputa!
             </p>
@@ -93,7 +93,7 @@
     </div><!--container-->
     <section class="container" id="card-mikica">
         <div class="row">
-          <div class="col-sm-6 col-md-4" >
+          <div class="col-sm-6 col-md-4 row-f" >
             <div class="card bg-dark text-white text-center mt-5 mx-1" style="width: 100%;">
               <img src="images/mikica-1.png" class="card-img-top" alt="Mikica i Safet ">
               <div class="card-body">
@@ -108,7 +108,7 @@
               </div><!--card body-->
             </div><!--card-->
           </div><!--prva kartica- col -->
-          <div class="col-sm-6 col-md-4" >
+          <div class="col-sm-6 col-md-4 row-f" >
             <div class="card bg-light text-dark border-dark text-center mt-5 mx-1" style="width: 100%;">
               <img src="images/mikica-2.png" class="card-img-top" alt="Mikica i Hranislav na kapiji">
               <div class="card-body">
@@ -123,7 +123,7 @@
               </div><!--card body-->
             </div><!--card -->
           </div><!--druga kartica-col-->
-          <div class="col-sm-6 col-md-4" >
+          <div class="col-sm-6 col-md-4 row-f" >
             <div class="card bg-dark text-white text-center mt-5" style="width: 100%;">
               <img src="images/mikica-4.png" class="card-img-top" alt="Mikica i Hranislav u kanalu">
               <div class="card-body">
@@ -140,7 +140,7 @@
           </div><!--treca kartica--col-->
         </div><!--row-->
         <div class="row">
-          <div class="col-sm-6 col-md-4" >
+          <div class="col-sm-6 col-md-4 row-f" >
             <div class="card bg-dark text-white text-center mt-5 mx-1" style="width: 100%;">
               <img src="images/mikica-5.png" class="card-img-top" alt="Mikica na telefonu">
               <div class="card-img-overlay">
@@ -148,7 +148,7 @@
               </div>
             </div><!--card-->
           </div><!--col-->
-          <div class="col-sm-6 col-md-4" >
+          <div class="col-sm-6 col-md-4 row-f" >
             <div class="card bg-light text-dark border-dark text-center mt-5 mx-1" style="width: 100%;">
               <img src="images/mikica-6.png" class="card-img-top" alt="Mikica i Miklos">
               <div class="card-img-overlay">
@@ -156,7 +156,7 @@
               </div>
             </div><!--card-->
           </div><!--col-->
-          <div class="col-sm-6 col-md-4" >
+          <div class="col-sm-6 col-md-4 row-f" >
             <div class="card bg-dark text-dark text-center mt-5" style="width: 100%;">
               <img src="images/mikica-7.png" class="card-img-top" alt="To mikice">
               <div class="card-img-overlay">
@@ -167,98 +167,127 @@
     </section>  
     <hr style="margin-bottom: 20px" />
       <footer class="site-footer bg-color-by-dejan pt-2">
-       <div class="container">
+      <div class="container">
         <div class="row bg-color-by-dejan mt-3 text-light">
-          <div class="col-sm-6  col-md-4 ">
-            <h4 class="mt-3">Naš tim</h4>
-            <ul class="list-unstyled ">
+          <div class="col-12 col-sm-6 col-md-3 layout-social " >
+            <div style="margin-top: -6px;">
+              <a href="index.html"><img src="images/check-engine.png" class="img-logo my-3" alt="logo" /></a>
+            </div><!--logo-->
+            <div  >
+              <p class="text-light  bg-color-by-dejan bg-dark mb-3" style="margin-top: 12px;">
+                Kontaktirajte nas,<br> <b>najbolji servis u vašem gradu</b>,<br> a ne
+                ono <i>djubre od prekoputa!</i>
+              </p>
+            </div><!-- izraz-->
+            <div class="my-4">            
+              <a class="text-light mr-4 my-3" href="https://www.facebook.com/prviservis/?locale=sr_RS" target="_blank" >
+                <i class="layout-icon bi bi-facebook"></i>
+              </a>
+              <a class="text-light mr-4 my-3"  href="https://www.instagram.com/prvi.servis/" target="_blank" >
+                <i class="layout-icon bi bi-instagram"></i>
+              </a>
+              <a class="text-light mr-4 my-3" href="https://www.youtube.com/channel/UCjAbDxtpJWenQVs7MmxN_Xw" target="_blank">
+                <i class="layout-icon bi bi-youtube"></i>
+              </a>
+              <a class="text-light mr-4 my-3" href="https://www.tiktok.com/@prvi.servis " target="_blank" >
+                <i class="layout-icon bi bi-tiktok"></i>
+              </a>
+            </div><!--ikonice-->
+          </div> <!-- layout social ikonice logo i izraz-->
+          <div class="col-sm-6  col-md-3 ">
+            <h4 class="my-3" style="margin-top: 50px;">Naš tim</h4>
+            <ul class="list-unstyled my-4 ">
               <li>
-                <a class="text-light" href="hranislav.html">Hranislav</a>
+                <div class="rastojanje">
+                  <a class="text-light " href="hranislav.html">Hranislav</a>
+                </div>
               </li>
               <li>
-                <a class="text-light" href="mikica.html">Mikica</a>
-              </li>              
+                <div class="rastojanje">
+                  <a class="text-light" href="mikica.html">Mikica</a>
+                </div>
+              </li>             
               <li>
-                <a class="text-light" href="branislav.html">Bane</a>
+                <div class="rastojanje">
+                  <a class="text-light" href="branislav.html">Bane</a>
+                </div>
               </li>
               <li>
-                <a  class="text-light" href="safet.html">Safet</a>
+                <div class="rastojanje">
+                  <a  class="text-light" href="safet.html">Safet</a>
+                </div>
               </li>
               <li>
-                <a class="text-light" href="elektro-laci.html">Elektro Laci</a>
+                <div class="rastojanje">
+                  <a class="text-light" href="elektro-laci.html">Elektro Laci</a>
+                </div>
               </li>
             </ul>
           </div> <!-- nas tim-->
-          <div class="col-sm-6 col-md-4">
-            <h4 class="mt-3">Kontakt</h4>
-            <adress>
-              <span>Neka ulica 50, Novi Sad </span><br>
-              <span>08 - 17h </span><br>              
-              <tel>065 / 23 12 32 3</tel><br>
-            </adress>
-            <br>
-            <div>
-               <a  href="#indexTop" class="text-footer text-light mb-3 ">Povratak na vrh</a>
-            </div>         
+          <div class="col-sm-6  col-md-3">
+            <h4 class="my-3">Kontakt</h4>
+            <div class="my-1">
+              <adress >
+                <div class="rastojanje " style="margin-top: 23px;">
+                  <span>Neka ulica 50, Novi Sad </span>
+                </div>
+                <div class="rastojanje rastojanje-kontakt">
+                  <span>08 - 17h </span>  
+                </div> 
+                <div class="rastojanje rastojanje-kontakt" >           
+                  <tel>065 / 23 12 32 3</tel>
+                </div>
+              </adress>  
+            </div>
           </div><!-- kontakt-->
-          <div class="col-sm-12  col-md-4 ">
-            <h4 class="mt-3">Linkovi</h4>
-            <ul class="nav-column list-unstyled">
+          <div class="col-sm-6  col-md-3 ">
+            <h4 class="my-3 " style="margin-left: 15px;">Linkovi</h4>
+            <ul class="list-unstyled ">
               <li class="nav-item active">
-                <a class="nav-link text-light" href="#indexTop">Početna</a>
+                <div style="margin-top: 5px;">                
+                    <a class="nav-link text-light " href="index.html">Početna</a>
+                </div>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O nama</a >
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="hranislav.html">Hranislav</a>
-                  <a class="dropdown-item active" href="mikica.html">Mikica</a>                  
-                  <a class="dropdown-item" href="branislav.html">Bane</a>
-                  <a class="dropdown-item" href="safet.html">Safet</a>
-                  <a class="dropdown-item" href="elektro-laci.html">Elektro Laci</a>
+              <li class="nav-item dropdown"> 
+                <div class="stelovanje-visine-linkovi ">               
+                  <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O nama</a >
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="hranislav.html">Hranislav</a>
+                    <a class="dropdown-item active" href="mikica.html">Mikica</a>                  
+                    <a class="dropdown-item" href="branislav.html">Bane</a>
+                    <a class="dropdown-item" href="safet.html">Safet</a>
+                    <a class="dropdown-item " href="elektro-laci.html">Elektro Laci</a>
+                  </div>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="nase-usluge.html">Naše usluge</a>
+                <div  class="stelovanje-visine-linkovi" >  
+                  <a class="nav-link text-light" href="nase-usluge.html">Naše usluge</a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="rezervacija-termina.html">Rezervacija termina</a>
+                <div class="stelovanje-visine-linkovi "> 
+                  <a class="nav-link text-light" href="rezervacija-termina.html">Rezervacija termina</a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="kontakt.html">Kontakt<span class="sr-only">(current)</span></a>
+                <div class="stelovanje-visine-linkovi "> 
+                   <a class="nav-link text-light" href="kontakt.html">Kontakt<span class="sr-only">(current)</span></a>
+                </div>
               </li>
             </ul>
           </div> <!--linkovi -->
-        </div> <!-- row-->
-        <div class="row row-cols-sm-2 py-3">
-          <div class="col-12 col-sm-6 layout-social d-flex justify-content-between mt-2" >
-            <a class="text-light mx-auto" href="https://x.com/i/flow/login?redirect_after_login=%2Fprviservis" target="_blank" >
-              <i class="layout-icon bi bi-twitter"></i>
-            </a>
-            <a class="text-light mx-auto" href="https://www.facebook.com/prviservis/?locale=sr_RS" target="_blank" >
-              <i class="layout-icon bi bi-facebook"></i>
-            </a>
-            <a class="text-light mx-auto"  href="https://www.instagram.com/prvi.servis/" target="_blank" >
-              <i class="layout-icon bi bi-instagram"></i>
-            </a>
-            <a class="text-light mx-auto" href="https://www.youtube.com/channel/UCjAbDxtpJWenQVs7MmxN_Xw" target="_blank">
-              <i class="layout-icon bi bi-youtube"></i>
-            </a>
-            <a class="text-light mx-auto" href="https://sr.wikipedia.org/sr-ec/%D0%9F%D1%80%D0%B2%D0%B8_%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81" target="_blank" >
-              <i class="layout-icon bi bi-wikipedia"></i>
-            </a>
-            <a class="text-light mx-auto" href="https://www.imdb.com/title/tt5692200/" target="_blank" >
-              <i class="layout-icon bi bi-film"></i>
-            </a>
-            <a class="text-light mx-auto" href="https://www.tiktok.com/@prvi.servis " target="_blank" >
-              <i class="layout-icon bi bi-tiktok"></i>
-            </a>
-          </div> <!-- layout social ikonice-->
-          <div class="col-12 col-sm-6 text-capitalize text-light d-flex justify-content-center mt-2" >
-            <i class="bi bi-c-circle mr-2"></i> All right reserved 2024
-          </div>
+        </div> <!-- row-->       
+        <div class="row row-cols-sm-2 py-3 container">
+          <div class="col-12 col-sm-10 text-capitalize text-light d-flex justify-content-start mt-2" id="copy">
+            <i class="bi bi-c-circle mr-2"></i>All right reserved 2024
+          </div><!-- all right rezerved-->
+          <div class="col-sm-2 layout-social d-flex  mt-2" id="povratak" >
+            <a  href="#indexTop" class="text-footer text-light mb-3 " id="povratak"></i>Povratak na vrh</a>           
+          </div> <!-- povratak na vrh-->                   
         </div> <!-- row-cols-2-->
-       </div><!--kontenjer -->
-      </footer>
+      </div><!--kontenjer -->
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
